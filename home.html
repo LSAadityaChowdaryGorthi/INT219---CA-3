@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL-WEBSITE</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- begin header section-->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fas fa-lightbulb"></i> St. Aloysius
+        </a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="/home.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/courses.html">Evening Programs</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+
+    <!-- start account-form section -->
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">Login</span>
+            <span class="btn register-btn">Register</span>
+        </div>
+        <form class="login-form active" action="">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember me</label>
+                <a href="#">Forgot password</a>
+            </div>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+            <h3>register now</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <input type="password" placeholder="Confirm your password" class="box">
+            <input type="submit" value="Register now" class="btn">
+        </form>
+    </div> 
+    <!-- end sccount-form section -->
+    <!-- end header section-->
+
+    <!-- start of home section -->
+    <section class="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide" style="background: url(images/homepagephoto1.png) no-repeat;">
+                    <div class="content">
+                        <h3>A revolutionary way to educate.</h3>
+                        <p>
+                            Here at St.Alosyius we are focused on creating a new way for our students to learn. 
+                            We support a community schools approach that organizes and maximizes resources 
+                            from the school and community based partnerships to ensure every student thrives and to 
+                            support student success in alignment with the school priorities. 
+                        </p>
+                    </div>            
+                </section>
+
+                <section class="swiper-slide" style="background: url(images/homepagephoto2.png) no-repeat;">
+                    <div class="content">
+                        <h3>A Family Of Learning.</h3>
+                        <p>The administration and staff are committed to providing a challenging and supportive learning 
+                            environment where all students can succeed and reach their full potential. Every member 
+                            participates in cycles of continuous learning and improvement that includes establishing 
+                            high expectations, goal setting, planning, action and reflection.
+                            We offer staff professional development training to build teachers capacity to 
+                            improve instructional practices.
+                        </p>
+                    </div>            
+                </section>
+
+                <section class="swiper-slide" style="background: url(images/homepagephoto3.png) no-repeat;">
+                    <div class="content">
+                        <h3>A Partnership In Discovery</h3>
+                        <p>Through discovery, exploration, innovation, and creative expression through Arts integration 
+                            and after school enrichment opportunities, students receive rich, extended learning opportunities 
+                            while building a positive school culture where every member feels valued and respected.
+                        </p>
+                    </div>            
+                </section>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!-- end of home section -->
+
+    <!-- start of subject section -->
+
+    <section class="subjects">
+        <h1 class="heading">Subjects We Teach</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/subject-icon-1.png" alt="">
+                <h3>Arts & Design</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-2.png" alt="">
+                <h3>Mathematics</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-3.png" alt="">
+                <h3>Languages</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-4.png" alt="">
+                <h3>Computer Science</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-5.png" alt="">
+                <h3>Sciences</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-social.png" alt="">
+                <h3>Social Studies</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end of subect section -->
+
+    <!-- start of home courese slider section -->
+    
+    <section class="home-courses">
+
+        <h1 class="heading">Look Inside Our Campus</h1>
+
+        <div class="swiper home-course-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img style="height: 251px;" src="images/campus-1.jpg" alt="">
+                        <h3>Classrooms</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Classrooms</h3>
+                        <p>This is where our teachers engage students with their atmost attention</p>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img style="height:251px;" src="images/campus-2.jpg" alt="">
+                        <h3>Chemistry Lab</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Chemistry Lab</h3>
+                        <p>Learn and get accustomed to do experments and gain practical knowledge</p>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img style="height: 251px;" src="images/campus-3.jpg" alt="">
+                        <h3>Computer Science Lab</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Computer Science Lab</h3>
+                        <p>Implementation of theory is important in the Computer Science field</p>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img style="height: 251px;" src="images/Library.jpg" alt="">
+                        <h3>Library</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Library</h3>
+                        <p>With top of the facilities we will be sure to procude the best students. </p>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img style="height: 251px;" src="images/cafeteria.jpg" alt="">
+                        <h3>Cafetaria</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Cafetaria</h3>
+                        <p>School's best place to make lifelong memories according to students</p>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <div class="image">
+                        <img style="height: 251px;" src="images/Tennis Court.jpg" alt="">
+                        <h3>Tennis Court</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>Tennis Courts</h3>
+                        <p>Place where you can refresh your mind by plaiyng tennis </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end of home courese slider section -->
+
+
+
+    <!-- start of footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fas fa-lightbulb">St.Alosyius School</i></h3>
+                <p>HS, TANIKELLA , KONIJERLA (MANDAL)</p>
+                <div class="share">
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="home.html" class="link">Home</a>
+                <a href="about.html" class="link">About</a>
+                <a href="courses.html" class="link">Courses</a>
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">Help Desk</a>
+                <a href="#" class="link">FAQs</a>
+                <a href="#" class="link">Send Feedback</a>
+                <a href="#" class="link">Privacy Policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Enter your Email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+
+        <div class="credit">all rights reserved</div>
+    </section>
+    <!-- end of footer section -->
+
+
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <!-- js file link --> 
+   <script src="js/script.js"></script>
+</body>
+</html>
